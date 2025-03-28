@@ -4,7 +4,7 @@ A comprehensive analysis and modernization assessment of TYPO3's translation han
 
 ## Project Description
 
-This project aims to evaluate TYPO3's current translation capabilities thoroughly, compare them with industry standards, and develop a strategic roadmap for future improvements. The assessment will provide the TYPO3 community with insights into potential areas for modernization and strengthen TYPO3's position in the international market.
+This project aims to thoroughly evaluate TYPO3's current translation capabilities, compare them with industry standards, and develop a strategic roadmap for future improvements. The assessment will provide the TYPO3 community with insights into potential areas for modernization and strengthen TYPO3's position in the international market.
 
 ## Objectives
 
@@ -33,7 +33,7 @@ This project aims to evaluate TYPO3's current translation capabilities thoroughl
 
 ## Funding
 
-The TYPO3 Association is funding this project with 10,000 EUR as part of the Ideas Initiative for Q2 2025.
+The TYPO3 Association funds this project with 10,000 EUR as part of the Ideas Initiative for Q2 2025.
 
 ## Communication
 
@@ -44,7 +44,7 @@ Follow the progress of this project:
 
 ## License
 
-This project and all its deliverables are licensed under [MIT License](LICENSE).
+This project and all its deliverables are licensed under CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
 
 ## Contact
 
