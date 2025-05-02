@@ -128,8 +128,7 @@ The two following examples show the use of language fields in tables `tt_content
 
 1. **Table `tt_content`**
 
-
-![](file:///home/astrid/Desktop/Images/tt_content_default.png?msec=1746091231947)
+![](../Images/current-state-analysis/tt_content_default.png)
 
 This example shows a Default Language record (`uid=386`) with three translations. Two of them (`uid=398`, `uid=399`) are connected to the Default Language parent (`l18n_parent=386`). One translation `uid=402` is unconnected (`l18n_parent=0`).
 
@@ -137,8 +136,7 @@ The record with `uid=399` was translated (in free mode) from the record with `ui
 
 2. **Table `pages`**
 
-
-![](file:///home/astrid/Desktop/Images/pages_hide_default.png?msec=1746093777786)
+![](../Images/current-state-analysis/pages_hide_default.png)
 
 This example also shows a Default Language record (`uid=108`) with three translations. All translations are connected to the Default Language parent (`l10n_parent=108`). In `TCA` `config → behaviour → allowLanguageSynchronization` is set to true for field `nav_hide`, among others, and the values of these fields are set to be synchronized with the values of the Default Language record (`l10n_state={"nav_hide":"parent", "url":"parent"…}`).
 
