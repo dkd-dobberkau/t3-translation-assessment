@@ -13,25 +13,20 @@ There are two principal areas in which translations are required in TYPO3:
 
 **1. XLIFF Files:**
 
-TYPO3 employs XLIFF files to manage fixed language labels for the backend user interface as well as for the frontends of third-party extensions ([TYPO3 Documentation: XLIFF Format](https://docs.typo3.org/m/typo3/reference-coreapi/13.4/en-us/ApiOverview/Localization/XliffFormat.html)). Although XLIFF handling forms part of TYPO3’s overall translation support, it addresses a distinct and comparatively less complex area. Accordingly, the following analysis will focus primarily on the translation of editable content.
-
-**Types of XLIFF files and their impact on translation handling:**
-
-| Path | Affected Areas |
-| --- | --- |
-| Resources/Private/Language/{languageCode}.{ChosenBackendFileName}.xlf | backend user interface |
-| Resources/Private/Language/{language Code}.locallang.xlf | frontend labels for 3rd party  extensions |
+TYPO3 employs XLIFF files to manage backend user interface labels as well as generic frontend labels (e.g. "read more") ([TYPO3 Documentation: XLIFF Format](https://docs.typo3.org/m/typo3/reference-coreapi/13.4/en-us/ApiOverview/Localization/XliffFormat.html)). 
+Files are expected to be located in `Resources/Private/Language/`. Translated files are prepended with the language code, i.e. `Resources/Private/Language/{languageCode}.{ChosenBackendFileName}.xlf`.
+Although XLIFF handling forms part of TYPO3’s overall translation support, it addresses a distinct and comparatively less complex area. Accordingly, the following analysis will focus primarily on the translation of editable content.
 
 **2. Editable Database Records:**
 
-Editors can translate all editable content into all configured languages. Content in TYPO3 includes page records (database table `pages`), standard content element records (database table `tt_content`), core system records (such as `sys_file_reference` and `sys_file_metadata`), and records from third-party extensions (for example, `tx_news_domain_model_news`) ([TYPO3 Documentation: Database Records](https://docs.typo3.org/m/t`y`po3/reference-coreapi/13.4/en-us/ApiOverview/DatabaseRecords/Index.html)).
+Editors can translate all editable content into all configured languages. Content in TYPO3 includes page records (database table `pages`), content element records (database table `tt_content`), core system records (such as `sys_file_reference` and `sys_file_metadata`), and records from third-party extensions (for example, `tx_news_domain_model_news`) ([TYPO3 Documentation: Database Records](https://docs.typo3.org/m/typo3/reference-coreapi/13.4/en-us/ApiOverview/DatabaseRecords/Index.html)).
 
 **Types of database records and their impact on translation handling:**
 
 | Entity | Database Table | Affected Areas |
 | --- | --- | --- |
 | **pages** | `pages` | <ul><li>page rendering</li><li>page slug generation</li><li>menu rendering</li><li>link handling</li></ul> |
-| **standard content elements** | `tt_content` | <ul><li>standard content rendering</li><li>content rendering via TypoScript</li></ul> |
+| **content elements** | `tt_content` | <ul><li>standard content rendering</li><li>content rendering via TypoScript</li></ul> |
 | **core system records** | e.g. `sys_file_reference`, `sys_file_metadata` … | <ul><li>rendering of file resources</li><li>etc. ...</li></ul> |
 | **custom database records** | e.g. `tx_news_domain_model_news` … | <ul><li>rendering of relations to `tt_content`, `pages`, core system records or custom records</li><li>rendering of Extbase Plugin content</li><li>record slug generation</li><li>language menu generation</li><li>record link handling</li></ul> |
 
@@ -56,7 +51,7 @@ Custom implementations using the TYPO3 Extension Framework Extbase can use the s
 
 The Default Language is the primary language of any TYPO3 Site with the fixed language identifier ` 0`. All other languages are considered translations.
 
-This concept is firmly embedded in TYPO3: the Default Language determines the structure of the page tree and page module in the backend and may also govern the structure and sorting of translated pages in the frontend, depending on configuration.
+This concept is firmly embedded in TYPO3: the Default Language determines the structure of the page tree and the page module in the backend and may also govern the structure and sorting of translated pages in the frontend, depending on configuration.
 
 ### All Languages
 
@@ -110,7 +105,6 @@ Since pages in Default Language are basic structuring elements of TYPO3, pages a
 
 1. **"Hide default language of page"**
 2. **"Hide page if no translation for current language exists"**
-3. **Both options combined**
 
 This configuration is stored in the additional database field `l18n_cfg` of table `pages`.
 
@@ -132,7 +126,7 @@ The two following examples show the use of language fields in tables `tt_content
 
 This example shows a Default Language record (`uid=386`) with three translations. Two of them (`uid=398`, `uid=399`) are connected to the Default Language parent (`l18n_parent=386`). One translation `uid=402` is unconnected (`l18n_parent=0`).
 
-The record with `uid=399` was translated (in free mode) from the record with `uid=398 `as can be seen from the value of the field `l10n_source`. The source for the other translations was the Default Language record (`l10n_source=386`).
+The record with `uid=399` was translated from the record with `uid=398 `as can be seen from the value of the field `l10n_source`. The source for the other translations was the Default Language record (`l10n_source=386`).
 
 2. **Table `pages`**
 
