@@ -180,7 +180,7 @@ Before rendering, all records are passed through the method`PageRepository::getL
 
 For Overlays all field values of the original database record – except for `uid` and `pid` – are replaced with values from the record in the requested language. Additional fields such as `_LOCALIZED_UID` are added to keep information about the translated record ([Benni Mack: Language Overlay](https://www.youtube.com/watch?v=8kB1IH-_-_s)).
 
-For fallbacks, an overly is done using a translated record from a language in the fallback chain instead of the requested language.
+For fallbacks, an overlay is done using a translated record from a language in the fallback chain instead of the requested language.
 
 ### Extension Development (Extbase)
 
@@ -282,8 +282,6 @@ The following challenges regarding User Experience have mainly been identified o
 - The **page tree cannot be translated**, and the page tree search only works with Default Language titles. This makes navigation harder for editors working in other languages.
 
 - **Language visibility** in the page module is tied to access permissions only. There is no way to group or manage related variants (e.g., en-GB, en-US) for viewing and editing as language bundles in the backend user interface.
-
-- The **"Save and Close" button** missing from recent TYPO3 versions would simplify the manual translation process considerably, especially in a setup with many languages.
 
 
 ### Performance Issues
