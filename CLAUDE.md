@@ -22,6 +22,12 @@ All documentation in this repository uses Markdown format. When editing document
 - Include examples where applicable
 - Use Markdown formatting consistently
 - Link to relevant resources when appropriate
+- **IMPORTANT**: Mark all AI-generated content with a clear attribution at the end of the document using the following format:
+  ```
+  ---
+
+  _This content was generated with assistance from Claude AI._
+  ```
 
 ## Contribution Process
 
