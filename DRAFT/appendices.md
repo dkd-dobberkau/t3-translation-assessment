@@ -353,7 +353,52 @@ Thank you for taking the time to complete this survey. Your feedback is invaluab
 [Insert references to relevant TYPO3 documentation]
 
 ### F.3. Industry Standards and Guidelines
-[Insert references to relevant industry standards and guidelines]
+
+This section outlines the key industry standards and guidelines relevant to translation and localization systems, particularly as they relate to content management systems like TYPO3.
+
+#### ISO Standards
+
+- **ISO 17100:2015 - Translation Services**: Requirements for translation service providers, providing a framework for quality assurance in translation workflows.
+- **ISO 9001:2015 - Quality Management Systems**: Criteria for quality management applicable to translation processes.
+- **ISO 639 - Language Codes**: Standardized nomenclature for language classification, critical for proper language identification.
+- **ISO 15924 - Codes for Script Names**: Defines codes for different writing systems, important for non-Latin scripts.
+- **ISO 3166 - Country Codes**: Defines codes for countries and regions, used in locale-specific variants.
+- **ISO 21720:2017 (XLIFF)**: The ISO standard for XML Localization Interchange File Format, used by TYPO3 for language files.
+- **ISO 30042:2019 (TBX)**: TermBase eXchange standard for terminology exchange.
+
+#### W3C Standards and Recommendations
+
+- **W3C Internationalization (i18n)**: Guidelines for designing globally-adaptable websites and applications.
+- **W3C Internationalization Tag Set (ITS)**: Technology for adding metadata to support internationalization processes.
+- **HTML Language Attribute (lang)**: Essential for proper language identification in rendered content.
+- **BCP 47 - Tags for Identifying Languages**: Standard for language tags, an alternative to numeric language IDs.
+
+#### OASIS Standards
+
+- **XLIFF**: XML-based format for exchanging localizable data between tools.
+- **OAXAL**: Reference architecture for XML authoring and localization.
+- **DITA**: XML architecture for managing technical content across languages.
+
+#### Other Industry Standards
+
+- **TMX (Translation Memory eXchange)**: Standard for exchange of translation memory data.
+- **SRX (Segmentation Rules eXchange)**: Standard for text segmentation rules.
+- **GMX**: Standards for translation metrics exchange.
+- **Unicode**: International encoding standard for consistent multilingual text handling.
+
+#### Best Practices and Guidelines
+
+- **GALA Guidelines**: Industry best practices for globalization and localization.
+- **T13N Best Practices**: Best practices for translation processes and workflows.
+- **W3C Internationalization Best Practices**: Guidance on web development internationalization.
+
+#### Emerging Standards and Trends
+
+- **TAPICC**: Initiative for open-source translation APIs.
+- **Continuous Localization**: Integration of localization into CI/CD processes.
+- **Neural Machine Translation Integration**: Standards for machine translation services.
+
+For a complete analysis of these standards and their relevance to TYPO3, see the full document in `/DRAFT/industry-standards.md`.
 
 ## Appendix G: Glossary of Terms
 
