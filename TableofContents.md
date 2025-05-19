@@ -24,13 +24,19 @@
 
 ## 3. Current State Analysis
 
+3.0. Translation Areas in TYPO3
+
 3.1. TYPO3 Translation System Architecture
 
-3.2. Core Components and Interactions
+3.2. Key Concepts
 
-3.3. System Workflow Diagram
+3.3. Technical Implementation
 
-3.4. Identified Limitations and Challenges
+3.4. Translation Workflows for Editors
+
+3.5. XLIFF Labels
+
+3.6. Identified Limitations and Challenges
 
 ## 4. Competitive Analysis
 
