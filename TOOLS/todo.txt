@@ -1,0 +1,36 @@
+# TYPO3 Translation Assessment Project TODO List
+Date: May 19, 2025
+
+## Completed Tasks
+- [x] Create Google Forms survey script
+- [x] Document script usage in README
+- [x] Draft interview questions for C1-C4 users (social media campaign)
+
+## Current Tasks
+- [ ] Create social media image templates for interview questions
+- [ ] Set up Google Form using the created script
+- [ ] Implement email notification system for survey responses
+- [ ] Schedule social media posts with interview questions
+
+## Upcoming Tasks
+- [ ] Reach out to TYPO3 community leads for survey distribution
+- [ ] Analyze initial survey responses
+- [ ] Prepare interview schedule with key TYPO3 stakeholders
+- [ ] Begin drafting preliminary findings report
+- [ ] Develop spreadsheet templates for data analysis
+
+## Phase 1 Deadlines (Research and Assessment)
+- Complete initial survey design: April 10, 2025
+- Deploy survey to community: April 15, 2025
+- Begin interviews: April 20, 2025
+- Complete data collection: April 30, 2025
+
+## Notes
+- Ensure consistent branding across all survey and social media materials
+- Coordinate with TYPO3 Association for official communication channels
+- Consider translation of survey into German for broader reach
+- Remember to extract qualitative data from free-text responses
+
+---
+
+_This content was generated with assistance from Claude AI._
