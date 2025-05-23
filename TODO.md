@@ -7,34 +7,34 @@ This document tracks the progress of the TYPO3 Translation System Analysis and M
 The final report is organized into the following chapters, with corresponding draft documents in the `/DRAFT/` folder:
 
 ### Front Matter
-- [ ] **Table of Contents** (`table-of-contents.md`)
-- [ ] **Executive Summary** (`executive-summary.md`)
+- [ ] **[Table of Contents](DRAFT/table-of-contents.md)** (`table-of-contents.md`)
+- [ ] **[Executive Summary](DRAFT/executive-summary.md)** (`executive-summary.md`)
 
 ### Chapter 1: Project Foundation
-- [ ] **Introduction** (`introduction.md`)
-- [ ] **Project Framework** (`project-framework.md`)
+- [ ] **[Introduction](DRAFT/introduction.md)** (`introduction.md`)
+- [ ] **[Project Framework](DRAFT/project-framework.md)** (`project-framework.md`)
 
 ### Chapter 2: Current State Assessment
-- [ ] **Current State Analysis** (`current-state-analysis.md`)
-- [ ] **Industry Standards** (`industry-standards.md`)
-- [ ] **Competitive Analysis** (`competitive-analysis.md`)
+- [ ] **[Current State Analysis](DRAFT/current-state-analysis.md)** (`current-state-analysis.md`)
+- [ ] **[Industry Standards](DRAFT/industry-standards.md)** (`industry-standards.md`)
+- [ ] **[Competitive Analysis](DRAFT/competitive-analysis.md)** (`competitive-analysis.md`)
 
 ### Chapter 3: Analysis and Gaps
-- [ ] **Gap Analysis** (`gap-analysis.md`)
-- [ ] **Risk Management** (`risk-management.md`)
+- [ ] **[Gap Analysis](DRAFT/gap-analysis.md)** (`gap-analysis.md`)
+- [ ] **[Risk Management](DRAFT/risk-management.md)** (`risk-management.md`)
 
 ### Chapter 4: Recommendations and Implementation
-- [ ] **Improvement Recommendations** (`improvement-recommendations.md`)
-- [ ] **Technical Roadmap** (`technical-roadmap.md`)
-- [ ] **Proof of Concept** (`proof-of-concept.md`)
-- [ ] **Community Engagement** (`community-engagement.md`)
+- [ ] **[Improvement Recommendations](DRAFT/improvement-recommendations.md)** (`improvement-recommendations.md`)
+- [ ] **[Technical Roadmap](DRAFT/technical-roadmap.md)** (`technical-roadmap.md`)
+- [ ] **[Proof of Concept](DRAFT/proof-of-concept.md)** (`proof-of-concept.md`)
+- [ ] **[Community Engagement](DRAFT/community-engagement.md)** (`community-engagement.md`)
 
 ### Chapter 5: Conclusion
-- [ ] **Conclusion** (`conclusion.md`)
+- [ ] **[Conclusion](DRAFT/conclusion.md)** (`conclusion.md`)
 
 ### Back Matter
-- [ ] **Glossary** (`glossary.md`)
-- [ ] **Appendices** (`appendices.md`)
+- [ ] **[Glossary](DRAFT/glossary.md)** (`glossary.md`)
+- [ ] **[Appendices](DRAFT/appendices.md)** (`appendices.md`)
 
 ## Progress Tracking
 
