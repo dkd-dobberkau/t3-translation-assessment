@@ -6,7 +6,7 @@ Based on the 2025-05-23 team meeting minutes:
 
 - [ ] Provide To-Do list and assessment per chapter with readiness indicators
 - [ ] Check chapters for factual correctness, clarity, and potential gaps
-- [ ] Share community survey link (Google Forms is ready)
+- [X] Share community survey link (Google Forms is ready)
 
 ## Document Structure Issues
 
