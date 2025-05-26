@@ -2,7 +2,7 @@
 
 ## 1.1. Project Background
 
-The TYPO3 Translation System Analysis and Modernization project has been initiated by the TYPO3 Association as a strategic investment for Q2 2025. Over the years, TYPO3 CMS has evolved into a robust enterprise content management system used globally across diverse organizations and language contexts. While the current translation system has served the community well, increasing demands for multilingual content management, changing user expectations, and advancements in translation technologies have highlighted the need for a comprehensive assessment.
+The TYPO3 Translation System Analysis and Modernization budget was approved by the TYPO3 Association as a strategic investment for Q2 2025. Over the years, TYPO3 CMS has evolved into a robust enterprise content management system used globally across diverse organizations and language contexts. While the current translation system has served the community well, increasing demands for multilingual content management, changing user expectations, and advancements in translation technologies have highlighted the need for a comprehensive assessment.
 
 The project emerges from community feedback indicating challenges with the existing translation workflows, particularly around integration with modern translation services, editor experience, and maintenance overhead. Previous incremental improvements have addressed specific issues, but no systematic evaluation has been conducted to align TYPO3's translation capabilities with current industry standards and emerging technologies.
 
@@ -16,7 +16,6 @@ The TYPO3 Translation System Analysis and Modernization project has the followin
 - Benchmark TYPO3's translation capabilities against competing CMS platforms including WordPress, Drupal, and Joomla, establishing a comparative framework
 - Identify gaps between TYPO3's current translation features and industry best practices, highlighting areas with the highest improvement potential
 - Collect and analyze user feedback from the TYPO3 community to understand real-world challenges and prioritize enhancements
-- Develop a proof-of-concept extension demonstrating critical improvements to validate technical approaches
 - Create a comprehensive roadmap for future development with short, medium, and long-term recommendations
 - Engage the TYPO3 community throughout the process to ensure alignment with user needs and build support for implementation
 
@@ -27,13 +26,12 @@ The TYPO3 Translation System Analysis and Modernization project has the followin
 - Evaluation of current translation workflows from content creation to publication
 - Benchmark analysis of 3-5 competing CMS platforms
 - Community survey and stakeholder interviews focused on translation needs
-- Development of a proof-of-concept extension addressing high-priority improvement areas
 - Technical documentation of findings and recommendations
-- Detailed implementation roadmap with resource estimates and timelines
+- Proposal of a roadmap with resource estimates and timelines
 
 ### Out of Scope:
 - Full implementation of recommended improvements
-- Changes to TYPO3 core outside of the proof-of-concept
+- Changes to TYPO3 core
 - Translation of actual content or support for specific language pairs
 - Customization for specific industries or business cases
 - Integration with proprietary translation management systems
@@ -44,7 +42,7 @@ The TYPO3 Translation System Analysis and Modernization project has the followin
 - Resources:
   - Project lead with 182 allocated working hours
   - Community contribution through feedback and testing
-  - TYPO3 Association oversight through Ingo Schmitt
+  - TYPO3 Association oversight through the Business Control Comimitee Lead Ingo Schmitt
   - Access to core developers for technical consultations
 
 ## 1.4. Methodology
@@ -66,7 +64,7 @@ This project employs a structured, mixed-methods approach to ensure comprehensiv
 - User journey mapping for translation workflows
 
 ### Stakeholder Engagement:
-- Regular updates to the TYPO3 Association through weekly emails and monthly reports
+- Regular updates to the TYPO3 Association through emails and reports
 - Community involvement via the #ideas-2025-q2 Slack channel
 - Open feedback rounds on key milestones
 - Two blog articles communicating project launch and results

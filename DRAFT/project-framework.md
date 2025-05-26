@@ -6,7 +6,7 @@ The project follows a structured three-phase approach over a 3-month period, wit
 
 ### Phase 1: Research and Assessment (April 1 - April 30, 2025)
 
-#### Milestone 1.1: Documentation of the current TYPO3 translation system (30 hours)
+#### Milestone 1.1: Documentation of the current TYPO3 translation system
 - **Week 1 (April 1-7)**: Initial code review and system architecture mapping
   - Examine codebase structure and documentation
   - Identify key translation-related components in TYPO3 core
@@ -21,7 +21,7 @@ The project follows a structured three-phase approach over a 3-month period, wit
   - Compile findings into initial report draft
 - **Deliverables**: Comprehensive documentation of current system architecture, component interaction diagrams, and technical analysis report
 
-#### Milestone 1.2: Benchmarking with competing CMS platforms (35 hours)
+#### Milestone 1.2: Benchmarking with competing CMS platforms
 - **Week 2-3 (April 8-21)**: Research and data collection
   - Analyze translation systems in WordPress, Drupal, Joomla, and other leading CMS platforms
   - Document industry best practices for multilingual content management
@@ -32,7 +32,7 @@ The project follows a structured three-phase approach over a 3-month period, wit
   - Identify strengths and weaknesses relative to competitors
 - **Deliverables**: Comprehensive comparison matrix, best practices documentation, and competitive analysis report
 
-#### Communication (5 hours)
+#### Communication
 - **Week 4 (April 29-30)**: First blog article publication
   - Draft, review, and publish "TYPO3 Translation System Under the Microscope - Launch of a New Analysis Project"
   - Share article across TYPO3 community channels
@@ -41,7 +41,7 @@ The project follows a structured three-phase approach over a 3-month period, wit
 
 ### Phase 2: Analysis and Identification (May 1 - May 31, 2025)
 
-#### Milestone 2.1: Gap analysis between current status and best practices (25 hours)
+#### Milestone 2.1: Gap analysis between current status and best practices
 - **Week 5-6 (May 1-14)**: Systematic gap identification
   - Compare TYPO3 capabilities against identified best practices
   - Prioritize gaps based on impact and implementation complexity
@@ -52,7 +52,7 @@ The project follows a structured three-phase approach over a 3-month period, wit
   - Prepare preliminary recommendations
 - **Deliverables**: Gap analysis report, prioritized improvement opportunities, and preliminary technical recommendations
 
-#### Milestone 2.2: User survey and community feedback (20 hours)
+#### Milestone 2.2: User survey and community feedback
 - **Week 5-6 (May 1-14)**: Survey design and implementation
   - Develop comprehensive user survey focusing on translation needs
   - Identify key stakeholders for in-depth interviews
@@ -63,7 +63,7 @@ The project follows a structured three-phase approach over a 3-month period, wit
   - Synthesize findings into actionable insights
 - **Deliverables**: Survey results, interview transcripts, and user needs analysis report
 
-#### Milestone 2.3: Development of a POC Extension (25 hours)
+#### Milestone 2.3: Development of a POC Extension
 - **Week 8-9 (May 22-31)**: Development and testing
   - Design proof-of-concept addressing critical improvement areas
   - Implement core functionality demonstrating technical approach
@@ -73,7 +73,7 @@ The project follows a structured three-phase approach over a 3-month period, wit
 
 ### Phase 3: Recommendations and Roadmap (June 1 - June 30, 2025)
 
-#### Milestone 3.1: Develop detailed recommendations (20 hours)
+#### Milestone 3.1: Develop detailed recommendations
 - **Week 10-11 (June 1-14)**: Recommendation development
   - Formulate short-term improvements (quick wins)
   - Define medium-term technical adjustments
@@ -81,7 +81,7 @@ The project follows a structured three-phase approach over a 3-month period, wit
   - Validate recommendations with technical advisors
 - **Deliverables**: Detailed recommendations document with prioritization and impact assessment
 
-#### Milestone 3.2: Creation of a technical roadmap (15 hours)
+#### Milestone 3.2: Creation of a technical roadmap
 - **Week 11-12 (June 15-21)**: Roadmap development
   - Create implementation timeline for recommendations
   - Estimate resource requirements for each improvement
@@ -89,7 +89,7 @@ The project follows a structured three-phase approach over a 3-month period, wit
   - Define success metrics and evaluation criteria
 - **Deliverables**: Technical roadmap document, resource planning guide, and implementation timeline visualization
 
-#### Milestone 3.3: Creation of final documentation (15 hours)
+#### Milestone 3.3: Creation of final documentation
 - **Week 12-13 (June 22-30)**: Finalization of project deliverables
   - Compile comprehensive technical documentation
   - Prepare executive summary and key findings
@@ -97,7 +97,7 @@ The project follows a structured three-phase approach over a 3-month period, wit
   - Conduct internal review and finalize all documents
 - **Deliverables**: Complete project documentation package, executive summary, and presentation materials
 
-#### Communication (5 hours)
+#### Communication
 - **Week 13 (June 28-30)**: Second blog article publication
   - Draft, review, and publish "Results and Future Vision for the TYPO3 Translation System"
   - Prepare and deliver final presentation to key stakeholders
@@ -138,7 +138,7 @@ The budget has been optimized to allocate most resources to the initial research
 
 The project employs a lean team structure with clear responsibilities and supplemental expertise from the TYPO3 community:
 
-### Core Team
+### Team
 - **Project Lead:** Olivier Dobberkau
   - Overall project management and coordination
   - Primary contact for the TYPO3 Association
@@ -146,13 +146,13 @@ The project employs a lean team structure with clear responsibilities and supple
   - Budget management and resource allocation
   - Primary author of final recommendations and roadmap
 
-- **Technical Consultant:** TYPO3 Core Team Representative
+- **Technical Consultant:** TYPO3 Translation Handling Initiative Representative
   - Advisory role for technical feasibility assessment
   - Review of technical documentation and recommendations
   - Validation of architectural proposals
   - Guidance on core integration possibilities
 
-- **Community Liaison:** TYPO3 Community Manager
+- **Community Liaison:** Olivier Dobberkau
   - Survey distribution and stakeholder identification
   - Coordination of community feedback sessions
   - Blog article publication and promotion
@@ -184,7 +184,7 @@ A robust communication plan ensures transparency, community engagement, and effe
 
 ### Regular Updates
 - **Weekly Status Reports**
-  - Sent every Friday to Ingo Schmitt and core team members
+  - Sent regular reports to Ingo Schmitt and team members
   - Includes progress against milestones, completed activities, upcoming tasks
   - Highlights any risks, issues, or decisions needed
   - Tracking of hours spent against budget allocation
@@ -198,27 +198,26 @@ A robust communication plan ensures transparency, community engagement, and effe
 
 ### Community Involvement
 - **Slack Engagement**
-  - Daily active presence in the #ideas-2025-q2 Slack channel
-  - Weekly "office hours" for community questions
+  - Active presence in the #ideas-2025-q2 Slack channel
+  - Office hours for community questions
   - Regular sharing of work-in-progress materials for feedback
   - Announcements of survey availability and feedback opportunities
 
 - **Open Feedback Rounds**
   - Phase 1 findings presentation: April 30, 2025
   - Survey design review: May 5, 2025
-  - POC extension showcase: May 28, 2025
   - Draft recommendations review: June 14, 2025
   - Final presentation: June 30, 2025
 
 ### Public Communication
 - **Blog Articles**
-  - Article 1: "TYPO3 Translation System Under the Microscope - Launch of a New Analysis Project" (April 29, 2025)
+  - Article 1: "TYPO3 Translation System Under the Microscope - Launch of a New Analysis Project" 
     - Project introduction and objectives
     - Call for community participation
     - Timeline and expected outcomes
     - Published on typo3.org and shared across social channels
 
-  - Article 2: "Results and Future Vision for the TYPO3 Translation System" (June 28, 2025)
+  - Article 2: "Results and Future Vision for the TYPO3 Translation System"
     - Summary of key findings
     - Showcase of POC extension capabilities
     - Overview of the technical roadmap
@@ -227,8 +226,8 @@ A robust communication plan ensures transparency, community engagement, and effe
 - **Additional Documentation**
   - All project materials published to public GitHub repository
   - Regular commits to show progress and invite contributions
-  - Weekly summaries posted to project wiki
-  - Final presentation recorded and made available on TYPO3 YouTube channel
+  - Summaries posted to project wiki
+  - Final presentation recorded and made available 
 
 ### Communication Tools and Channels
 - **Primary Collaboration:** GitHub repository and project board
